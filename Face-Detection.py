@@ -6,7 +6,6 @@ face_cascade = cv2.CascadeClassifier('C:/xampp/htdocs/Python Virtual Try On/casc
 # To capture video from webcam. 
 capture_video = cv2.VideoCapture(0)
 
-
 while True:
     # Read the frame
     _, img = capture_video.read()
